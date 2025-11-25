@@ -33,7 +33,6 @@ The stress-detection model uses wrist-based physiological signals:
 - Trained on labeled segments (stress vs non-stress) from WESAD  
 - Exported as .cbm model for deployment  
 
----
 
 ---
 
