@@ -35,12 +35,41 @@ The stress-detection model uses wrist-based physiological signals:
 
 ---
 
+---
+
+# Model Performance
+
+**Accuracy:** `0.9746300211416491`
+
+### Classification Report
+
+| Class                | Precision | Recall | F1-Score | Support |
+| -------------------- | --------- | ------ | -------- | ------- |
+| **0 (Not Stressed)** | 0.98      | 0.98   | 0.98     | 326     |
+| **1 (Stressed)**     | 0.95      | 0.97   | 0.96     | 147     |
+
+**Overall Accuracy:** 0.97
+**Macro Average:** Precision 0.97 • Recall 0.97 • F1-Score 0.97
+**Weighted Average:** Precision 0.97 • Recall 0.97 • F1-Score 0.97
+
+---
+
+### Confusion Matrix
+
+|              | Predicted 0 | Predicted 1 |
+| ------------ | ----------- | ----------- |
+| **Actual 0** | 319         | 7           |
+| **Actual 1** | 5           | 142         |
+
+---
+
+
 ##  Backend (FastAPI)
 
 The backend provides real-time stress prediction.
 
 *Responsibilities include:*
-- Loading the trained CatBoost model  
+- Loading the trained CatBoost model
 - Receiving 6 raw values from the frontend:
   - BVP, EDA, TEMP, ACC_x, ACC_y, ACC_z  
 - Reconstructing a *synthetic 6-second window*  
