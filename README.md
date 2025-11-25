@@ -18,7 +18,7 @@ The stress-detection model uses wrist-based physiological signals:
 | *TEMP* | Skin Temperature |
 | *ACC_x, ACC_y, ACC_z* | Accelerometer movement data |
 
-### 🪟 Sliding Window Approach  
+###  Sliding Window Approach  
 - Each prediction uses a *6-second window*  
 - *50% overlap* for smoother transitions  
 - Features extracted per window include:  
