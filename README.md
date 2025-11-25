@@ -7,7 +7,7 @@ The full pipeline includes *feature extraction, a **FastAPI backend, and a **Rea
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The stress-detection model uses wrist-based physiological signals:
 
@@ -28,14 +28,14 @@ The stress-detection model uses wrist-based physiological signals:
   - HRV metrics derived from BVP  
   - Movement energy from accelerometer  
 
-### 🧠 Machine-Learning Model  
+###  Machine-Learning Model  
 - Trained using *CatBoost*, achieving high accuracy  
 - Trained on labeled segments (stress vs non-stress) from WESAD  
 - Exported as .cbm model for deployment  
 
 ---
 
-## 🌐 Backend (FastAPI)
+##  Backend (FastAPI)
 
 The backend provides real-time stress prediction.
 
@@ -52,7 +52,7 @@ The backend provides real-time stress prediction.
 
 ---
 
-## 💻 Frontend (React)
+##  Frontend (React)
 
 The React frontend provides:
 - A simple interface where users/employees enter vital readings  
@@ -62,7 +62,7 @@ The React frontend provides:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - *CatBoost* → machine-learning classification  
 - *Python + FastAPI* → backend and model serving  
@@ -71,7 +71,7 @@ The React frontend provides:
 
 ---
 
-## 👥 Project Members
+##  Project Members
 
 | Name | Role |
 |------|------|
@@ -81,7 +81,7 @@ The React frontend provides:
 
 ---
 
-## 🎓 Academic Information
+##  Academic Information
 
 - *University:* King Saud University  
 - *College:* College of Applied Computer Sciences  
@@ -90,7 +90,7 @@ The React frontend provides:
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project demonstrates how wearable sensor data combined with machine-learning techniques can be used to classify stress levels.  
 It supports real-time stress awareness and highlights the practical potential of physiological computing in modern applications.
