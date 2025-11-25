@@ -107,18 +107,16 @@ The chatbot provides short, controlled responses and explains stress-related met
 - Blood Volume Pulse (BVP)  
 - Movement Activity  
 
----
 
-## Tech Stack
+ Tech Stack
 
 - Node.js  
 - Express.js  
 - Ollama (local LLM engine)  
 - Llama 3.2 model  
 
----
 
-## How It Works
+ How It Works
 
 **Note:**  
 This backend handles *only* the chatbot logic and LLM responses.  
@@ -126,9 +124,7 @@ The frontend (chat interface) is managed by another team member and communicates
 
 The server receives a user message → builds a strict prompt → sends it to Ollama Llama 3.2 → gets a short controlled reply → returns it to the client.
 
----
-
-## Files Included
+ Files Included
 
 - **server.js** → Main backend server  
 - **package.json** → Project dependencies & scripts  
