@@ -1,6 +1,6 @@
 # Stress-Detection-Using-Machine-Learning-Techniques
 This project implements a wrist-based stress detection system using machine-learning methods.  
-It was developed as a *Graduation Project at King Saud University – College of Applied Computer Sciences, under the supervision of **Dr. Munahy*.
+It was developed as a *Graduation Project at King Saud University – College of Applied Computer Sciences, under the supervision of **Dr. Mnahi Rubiaan Alqahtani*.
 
 The system analyzes physiological signals from the *WESAD* dataset and uses a *CatBoost classifier* to determine whether a user is stressed or not based on sliding windows of sensor data.  
 The full pipeline includes *feature extraction, a **FastAPI backend, and a **React frontend* for real-time interaction.
@@ -147,7 +147,7 @@ The server receives a user message → builds a strict prompt → sends it to Ol
 - *University:* King Saud University  
 - *College:* College of Applied Computer Sciences  
 - *Course:* Graduation Project  
-- *Supervisor:* Dr. Munahy  
+- *Supervisor:* Dr. Mnahi Rubiaan Alqahtani  
 
 ---
 
