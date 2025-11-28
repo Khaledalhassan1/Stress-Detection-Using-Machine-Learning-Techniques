@@ -51,7 +51,7 @@ The stress-detection model uses wrist-based physiological signals:
 **Macro Average:** Precision 0.97 • Recall 0.97 • F1-Score 0.97
 **Weighted Average:** Precision 0.97 • Recall 0.97 • F1-Score 0.97
 
----
+
 
 ### Confusion Matrix
 
